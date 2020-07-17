@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wpg.wpgblog.dao.ArticleDao">
+    <insert id="addNewArticle" parameterType="com.wpg.wpgblog.entity.Article" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO tb_article SET userId = #{userId}, title=#{title},mdContent=#{mdContent},htmlContent=#{htmlContent}, categoryId=#{categoryId}
+    </insert>
+
+    <update id="updateArticle" parameterType="com.wpg.wpgblog.entity.Article">
+        UPDATE tb_article SET
+            title=#{title},mdContent=#{mdContent},htmlContent=#{htmlContent}
+        WHERE id=#{id}
+    </update>
+
+    <select id="getArticleByState" resultType="com.wpg.wpgblog.entity.Article">
+        SELECT a.id,a.`title`,a.`editTime`,a.`pageView`,a.`state`,u.`nickname`,c.`cateName`,a.uid FROM article a,user
+        u,category c WHERE a.`cid`=c.`id` AND a.`uid`=u.`id`
+        <if test="state!=-2">
+            and a.uid=#{uid}
+        </if>
+        <if test="state!=-1 and state!=-2">
+            and a.state=#{state}
+        </if>
+        <if test="state==-2">
+            and a.state=1
+        </if>
+        <if test="keywords!=null">
+            AND title LIKE concat('%',#{keywords},'%')
+        </if>
+        ORDER BY a.editTime DESC limit #{start},#{count};
+    </select>
+
+<!--    <select id="getArticleByStateByAdmin" resultType="com.wpg.wpgblog.entity.Article">-->
+<!--        SELECT a.id,a.`title`,a.`editTime`,a.`pageView`,a.`state`,u.`nickname`,c.`cateName`,a.uid FROM article a,user-->
+<!--        u,category c WHERE a.`cid`=c.`id` AND a.`uid`=u.`id` and a.state=1-->
+<!--        <if test="keywords!=null">-->
+<!--            AND title LIKE concat('%',#{keywords},'%')-->
+<!--        </if>-->
+<!--        ORDER BY a.editTime DESC limit #{start},#{count};-->
+<!--    </select>-->
+
+<!--    <select id="getArticleCountByState" resultType="int">-->
+<!--        SELECT count(*) FROM article-->
+<!--        <where>-->
+<!--            <if test="state!=-1">-->
+<!--                AND state=#{state}-->
+<!--            </if>-->
+<!--            <if test="uid!=null">-->
+<!--                AND uid=#{uid}-->
+<!--            </if>-->
+<!--            <if test="keywords!=null">-->
+<!--                AND title LIKE concat('%',#{keywords},'%')-->
+<!--            </if>-->
+<!--        </where>-->
+<!--    </select>-->
+
+<!--    <update id="updateArticleState">-->
+<!--        UPDATE article SET state=#{state} WHERE id IN-->
+<!--        <foreach collection="aids" item="aid" separator="," open="(" close=")">-->
+<!--            #{aid}-->
+<!--        </foreach>-->
+<!--    </update>-->
+
+    <update id="updateArticleStateById" >
+        UPDATE tb_article SET state=#{state} WHERE id = #{articleId}
+    </update>
+
+    <select id="getAllArticles" resultType="com.wpg.wpgblog.entity.Article">
+        select * from tb_article
+    </select>
+
+
+<!--    <delete id="deleteArticleById">-->
+<!--        DELETE FROM article WHERE id IN-->
+<!--        <foreach collection="aids" item="aid" open="(" close=")" separator=",">-->
+<!--            #{aid}-->
+<!--        </foreach>-->
+<!--    </delete>-->
+
+    <select id="getArticleByArticleId" parameterType="Integer" resultType="com.wpg.wpgblog.entity.Article">
+        SELECT * from tb_article where id = #{id}
+    </select>
+
+    <select id="getArticleByUserId" parameterType="Integer" resultType="com.wpg.wpgblog.entity.Article">
+        SELECT * FROM tb_article where userId = #{userId} and state != 2
+    </select>
+
+    <update id="deleteArticleById">
+        UPDATE tb_article SET state = 2 WHERE id = #{id}
+    </update>
+
+    <select id="getAllNormalArticle" parameterType="Integer" resultType="com.wpg.wpgblog.entity.Article">
+        SELECT * FROM tb_article where state = 1 and score >= 8
+        <if test="categoryId != null">
+            and categoryId = #{categoryId}
+        </if>
+        order by id desc
+    </select>
+
+    <select id="getByArticleId" parameterType="Integer" resultType="com.wpg.wpgblog.entity.Article">
+        SELECT * from tb_article where id = #{articleId}
+    </select>
+
+    <select id="getByArticleIds" resultType="com.wpg.wpgblog.entity.Article">
+        select * from tb_article where id in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </select>
+
+    <select id="getNoApprovedArticles" resultType="com.wpg.wpgblog.entity.Article">
+        select * from tb_article where state = 0
+    </select>
+
+    <update id="score">
+        update tb_article set score = #{score}, state = 1 where id = #{id}
+    </update>
+
+    <resultMap id="BaseResultMap" type="com.wpg.wpgblog.entity.Article">
+        <id column="id" property="id"/>
+        <result column="userId" property="userId"/>
+        <result column="title" property="title"/>
+        <result column="mdContent" property="mdContent"/>
+        <result column="htmlContent" property="htmlContent"/>
+        <result column="likes" property="likes"/>
+        <result column="categoryId" property="categoryId"/>
+        <result column="state" property="state"/>
+    </resultMap>
+</mapper>

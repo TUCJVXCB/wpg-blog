@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57e3f6ec-b078-450e-810c-76a5c3d8563b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="MyBatis Mapper" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eiran0bxqAXRC0qHfA8pxvU3L8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/wpg/wpgblog/entity" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wpg.wpgblog.dao" />
+      <recent name="com.wpg.wpgblog.util" />
+      <recent name="com.wpg.wpgblog.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/wpg/wpgblog/dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/wpg/wpgblog/entity" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/wpg/wpgblog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WpgBlogApplication">
+    <configuration name="ArticleDaoTest.getAllArticles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wpg-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wpg.wpgblog.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wpg.wpgblog.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.wpg.wpgblog.dao.ArticleDaoTest" />
+      <option name="METHOD_NAME" value="getAllArticles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleDaoTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wpg-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wpg.wpgblog.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wpg.wpgblog.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.wpg.wpgblog.dao.ArticleDaoTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectDaoTest.getCollectedArticleIdByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wpg-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wpg.wpgblog.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wpg.wpgblog.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.wpg.wpgblog.dao.CollectDaoTest" />
+      <option name="METHOD_NAME" value="getCollectedArticleIdByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentDaoTest.getByArticleId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wpg-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wpg.wpgblog.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wpg.wpgblog.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.wpg.wpgblog.dao.CommentDaoTest" />
+      <option name="METHOD_NAME" value="getByArticleId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentServiceTest.getByArticleId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wpg-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wpg.wpgblog.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wpg.wpgblog.service" />
+      <option name="MAIN_CLASS_NAME" value="com.wpg.wpgblog.service.CommentServiceTest" />
+      <option name="METHOD_NAME" value="getByArticleId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WpgBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wpg-blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wpg.wpgblog.WpgBlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArticleDaoTest.test2" />
+        <item itemvalue="JUnit.CommentServiceTest.getByArticleId" />
+        <item itemvalue="JUnit.CommentDaoTest.getByArticleId" />
+        <item itemvalue="JUnit.ArticleDaoTest.getAllArticles" />
+        <item itemvalue="JUnit.CollectDaoTest.getCollectedArticleIdByUserId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57e3f6ec-b078-450e-810c-76a5c3d8563b" name="Default Changelist" comment="" />
+      <created>1594815319935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594815319935</updated>
+      <workItem from="1594815322364" duration="5495000" />
+      <workItem from="1594862900960" duration="70105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1594957210978">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="533" y="130" key="#com.intellij.ide.util.MemberChooser/0.23.1440.787@0.23.1440.787" timestamp="1594957210978" />
+    <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594919687118">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.787@0.23.1440.787" timestamp="1594919687118" />
+    <state x="396" y="80" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1594892277820">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="396" y="80" key="#com.intellij.unscramble.UnscrambleDialog/0.23.1440.787@0.23.1440.787" timestamp="1594892277820" />
+    <state x="270" y="82" key="GrepConsoleSettings" timestamp="1594955431394">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="270" y="82" key="GrepConsoleSettings/0.23.1440.787@0.23.1440.787" timestamp="1594955431394" />
+    <state x="270" y="82" key="GrepConsoleSettings/0.23.1440.790@0.23.1440.790" timestamp="1594955029483" />
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom" timestamp="1594969004599">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.23.1440.787@0.23.1440.787" timestamp="1594969004599" />
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.23.1440.790@0.23.1440.790" timestamp="1594955048479" />
+    <state width="1398" height="238" key="GridCell.Tab.0.center" timestamp="1594969004598">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.center/0.23.1440.787@0.23.1440.787" timestamp="1594969004598" />
+    <state width="1398" height="238" key="GridCell.Tab.0.center/0.23.1440.790@0.23.1440.790" timestamp="1594955048477" />
+    <state width="1398" height="238" key="GridCell.Tab.0.left" timestamp="1594969004596">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.left/0.23.1440.787@0.23.1440.787" timestamp="1594969004596" />
+    <state width="1398" height="238" key="GridCell.Tab.0.left/0.23.1440.790@0.23.1440.790" timestamp="1594955048476" />
+    <state width="1398" height="238" key="GridCell.Tab.0.right" timestamp="1594969004598">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.right/0.23.1440.787@0.23.1440.787" timestamp="1594969004598" />
+    <state width="1398" height="238" key="GridCell.Tab.0.right/0.23.1440.790@0.23.1440.790" timestamp="1594955048478" />
+    <state width="1398" height="238" key="GridCell.Tab.1.bottom" timestamp="1594969004601">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594963812133" />
+    <state width="1398" height="238" key="GridCell.Tab.1.bottom/0.23.1440.787@0.23.1440.787" timestamp="1594969004601" />
+    <state width="1398" height="238" key="GridCell.Tab.1.bottom/0.23.1440.790@0.23.1440.790" timestamp="1594955048480" />
+    <state width="1398" height="238" key="GridCell.Tab.1.center" timestamp="1594969004600">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1594963812131" />
+    <state width="1398" height="238" key="GridCell.Tab.1.center/0.23.1440.787@0.23.1440.787" timestamp="1594969004600" />
+    <state width="1398" height="238" key="GridCell.Tab.1.center/0.23.1440.790@0.23.1440.790" timestamp="1594955048479" />
+    <state width="1398" height="238" key="GridCell.Tab.1.left" timestamp="1594969004600">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1594963812122" />
+    <state width="1398" height="238" key="GridCell.Tab.1.left/0.23.1440.787@0.23.1440.787" timestamp="1594969004600" />
+    <state width="1398" height="238" key="GridCell.Tab.1.left/0.23.1440.790@0.23.1440.790" timestamp="1594955048479" />
+    <state width="1398" height="238" key="GridCell.Tab.1.right" timestamp="1594969004601">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1594963812132" />
+    <state width="1398" height="238" key="GridCell.Tab.1.right/0.23.1440.787@0.23.1440.787" timestamp="1594969004601" />
+    <state width="1398" height="238" key="GridCell.Tab.1.right/0.23.1440.790@0.23.1440.790" timestamp="1594955048480" />
+    <state width="1398" height="250" key="GridCell.Tab.2.bottom" timestamp="1594969003097">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.2.bottom/0.23.1440.787@0.23.1440.787" timestamp="1594969003097" />
+    <state width="1398" height="250" key="GridCell.Tab.2.bottom/0.23.1440.790@0.23.1440.790" timestamp="1594952854343" />
+    <state width="1398" height="250" key="GridCell.Tab.2.center" timestamp="1594969003096">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.2.center/0.23.1440.787@0.23.1440.787" timestamp="1594969003096" />
+    <state width="1398" height="250" key="GridCell.Tab.2.center/0.23.1440.790@0.23.1440.790" timestamp="1594952854342" />
+    <state width="1398" height="250" key="GridCell.Tab.2.left" timestamp="1594969003095">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.2.left/0.23.1440.787@0.23.1440.787" timestamp="1594969003095" />
+    <state width="1398" height="250" key="GridCell.Tab.2.left/0.23.1440.790@0.23.1440.790" timestamp="1594952854342" />
+    <state width="1398" height="250" key="GridCell.Tab.2.right" timestamp="1594969003096">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.2.right/0.23.1440.787@0.23.1440.787" timestamp="1594969003096" />
+    <state width="1398" height="250" key="GridCell.Tab.2.right/0.23.1440.790@0.23.1440.790" timestamp="1594952854343" />
+    <state x="308" y="159" key="IDE.errors.dialog" timestamp="1594952502034">
+      <screen x="0" y="23" width="1440" height="790" />
+    </state>
+    <state x="308" y="158" key="IDE.errors.dialog/0.23.1440.787@0.23.1440.787" timestamp="1594890834038" />
+    <state x="308" y="159" key="IDE.errors.dialog/0.23.1440.790@0.23.1440.790" timestamp="1594952502034" />
+    <state x="258" y="78" key="Maven.ArtifactSearchDialog" timestamp="1594904183885">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="258" y="78" key="Maven.ArtifactSearchDialog/0.23.1440.787@0.23.1440.787" timestamp="1594904183885" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1594816059774">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.787@0.23.1440.787" timestamp="1594816059774" />
+    <state width="500" height="476" key="SwitcherDM" timestamp="1594965748177">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state width="500" height="476" key="SwitcherDM/0.23.1440.787@0.23.1440.787" timestamp="1594965748177" />
+    <state x="496" y="245" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594948318907">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="496" y="245" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.787@0.23.1440.787" timestamp="1594948318907" />
+    <state x="421" y="171" width="598" height="490" key="find.popup" timestamp="1594967625109">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="421" y="171" width="598" height="490" key="find.popup/0.23.1440.787@0.23.1440.787" timestamp="1594967625109" />
+    <state x="385" y="134" width="670" height="676" key="search.everywhere.popup" timestamp="1594966885508">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="385" y="134" width="670" height="676" key="search.everywhere.popup/0.23.1440.787@0.23.1440.787" timestamp="1594966885508" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wpg/wpgblog/controller/ArticleController.java</url>
+          <line>250</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wpg/wpgblog/controller/ArticleController.java</url>
+          <line>251</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
